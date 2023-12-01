@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" type ="text/css" href ="home.css"/>
+    <title>Home</title>
+</head>
+<body>
+    <div class="Header">
+       <h3>Tewodros  Getnet </h3>
+        <ul>
+            <li> <a href="#" >Home</a></li>
+            <li> <a href="About.html" >About</a></li>           
+    </div>
+    <div class="hero-msg">
+        <h2> COVID-19  Transition protection model </h2>
+       </div>
+       
+    <div class="main">
+     
+     <div class="image-left">
+        <img src="img/Covid-19-1.png" alt="COVID-19 image">
+        <p> the content is the best idea </p>
+      </div>
+        <div class="inpute-data">
+
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" value="-">
+
+            <label for="Age">Age:</label>
+            <input type="text" id="Age" name="Age">
+            <!--Sex-->
+            <label for="txtSex"> Sex:</label> 
+            <select name="Sex" id="txtSex">
+                <option value="Male">Male </option>
+                <option value="Female">Femal</option>         
+            </select>
+            <!--Occupations-->
+            <label for="Occupation"> Occupation:</label> 
+            <select name="Occupation" id="Occupation">
+                <option value="HW">HW </option>
+                <option value="Customer Service">Customer Service </option>
+                <option value="Daily laborer">Daily laborer</option>
+                <option value="Teachers">Teachers </option>
+                <option value="Office">Office </option>
+                <option value="Others">Others </option>
+                
+            </select>
+            <!-- BMI-->
+             <label for="BMI">BMI:</label>
+             <input type="text" id="BMI" BMI="BMI">
+             <!--Co morbidity -->
+            <label for="Morbidity"> Co morbidity:</label> 
+            <select name="morbidity" id="Morbidity">
+                <option value="No">No  </option>
+                <option value="One">One  </option>
+                <option value="Two">Two </option>
+                <option value="Three and more">Three and more </option>               
+            </select>
+            <!--Symptoms -->
+            <label for="Symptoms"> Symptoms :</label>
+            <select name="Symptoms" id="Symptoms">
+                <option value="No">No  </option>
+                <option value="One">One  </option>
+                <option value="Two">Two </option>
+                <option value="Three and more">Three and more </option>               
+            </select>
+             <!--Wearing mask  -->
+       
+             <label for="Wearing"> Wearing mask  :</label> 
+             <select name="Wearing" id="Wearing">
+                 <option value="No">No  </option>
+                 <option value="Yes">Yes  </option>
+                 <option value="Sometimes">Sometimes </option>
+            </select>
+     
+              <label for="Sanitize"> Sanitize / washing hand  :</label>
+              <select name="Sanitize" id="Sanitize">
+                  <option value="No">No  </option>
+                  <option value="Yes">Yes  </option>
+                  <option value="Sometimes">Sometimes </option>
+             </select>
+              <!--Social Distance -->
+        
+              <label for="Social"> Social Distance :</label> 
+              <select name="Social" id="Social">
+                  <option value="No">No  </option>
+                  <option value="Yes">Yes  </option>
+                  <option value="Sometimes">Sometimes </option>
+             </select>
+             <!--Popup display-->
+             <div class="popup"id ="popup">
+                <img src="img/icons8-ok-96.png" alt="Ok image of popup"> <br>
+                <h3> Risk leve and Vulnerability</h3>
+                <lable for ="txtName"> Hi Mr/Mss. :</lable>
+                <input type="text" ID="txtName" value ="*" disabled/><br>
+
+                <lable for ="txtsumation"> Risk Inex  :</lable>
+                <input type="text" ID="txtsumation" value="0" disabled/><br>
+
+                <lable for ="txtrisk"> Vulnerability :</lable>
+                <input type="text"  id="txtrisk" value ='*' disabled/><br>
+                <p> this is the risk level of According the data this is the risk level of According the data</p>
+                <button class="ok" onclick="closepopup();">ok</button>
+            </div>
+            <!--Smoke  -->
+             <label for="Smoke"> Smoke  :</label> 
+             <select name="Smoke" id="Smoke">
+                 <option value="No">No  </option>
+                 <option value="Yes">Yes  </option>
+                 <option value="Sometimes">Sometimes </option>
+            </select>
+
+             <!--Khat   -->
+            <label for="Khat"> Khat   :</label> 
+             <select name="Khat" id="Khat">
+                 <option value="Regularly">Regularly </option>
+                 <option value="SomeTimes">SomeTimes   </option>
+                 <option value="No">No  </option>
+            </select>
+            <!--Alcohol-->
+           <label for="Alcohol"> Alcohol :</label> 
+           <select name="Alcohol" id="Alcohol">
+               <option value="Regularly">Regularly   </option>
+               <option value="Some Times">Some Times   </option>
+               <option value="No">No  </option>
+          </select>
+  
+         <!--Button here -->
+         <button class="calc" onclick="Calculate();"> calculate </button>
+     
+        </div>
+        <div class="image-right">
+        <img src="img/Covid-19-2.png" alt="Girl in a jacket">
+       <p>the other right contents </p> 
+        </div>
+    </div>
+    
+
+    <div class="footer-page">
+        
+        <div class="owner">
+            <p>desing by : weldemariam Bahre </p>
+        </div>
+        <div class="copy">
+            <p> Copy write @ 2016 E.C</p>
+        </div>
+          
+    </div>
+    <script 
+    src="Scripts/home.js">
+     </script>
+</body>
+</html>
